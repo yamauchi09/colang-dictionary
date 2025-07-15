@@ -22,7 +22,6 @@ document.getElementById('search').addEventListener('input', function() {
           <h2>${entry.word}</h2>
           <p><strong>意味：</strong> ${entry.meaning}</p>
           <p><strong>品詞：</strong> ${entry.part_of_speech}</p>
-          <p><strong>発音：</strong> ${entry.pronunciation}</p>
           <p><strong>例文：</strong> ${entry.example}</p>
           <p><em>${entry.notes}</em></p>
         </div>
