@@ -1,17 +1,15 @@
 [
   {
     "word": "salan",
-    "part_of_speech": "名詞",
     "meaning": "平和",
-    "pronunciation": "saˈlan",
+    "part_of_speech": "名詞",
     "example": "Salan enar!（あなたに平和を！）",
     "notes": "挨拶や別れの際に使われる。"
   },
   {
     "word": "enar",
-    "part_of_speech": "代名詞",
     "meaning": "あなた（単数）",
-    "pronunciation": "eˈnar",
+    "part_of_speech": "代名詞",
     "example": "Salan enar!（あなたに平和を！）",
     "notes": "単数・親しい相手への形。"
   }
