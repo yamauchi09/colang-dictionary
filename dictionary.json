@@ -1,9 +1,9 @@
 [
   {
-    "word": "peace",
+    "word": "salan",
     "meaning": "平和",
     "part_of_speech": "名詞",
-    "example": "Peace enar!（あなたに平和を！）",
+    "example": "Salan enar!（あなたに平和を！）",
     "notes": "挨拶や別れの際に使われる。"
   },
   {
@@ -12,5 +12,12 @@
     "part_of_speech": "代名詞",
     "example": "Salan enar!（あなたに平和を！）",
     "notes": "単数・親しい相手への形。"
+  },
+  {
+    "word": "hana",
+    "meaning": "花",
+    "part_of_speech": "名詞",
+    "example": "はなはきれい",
+    "notes": ""
   }
 ]
