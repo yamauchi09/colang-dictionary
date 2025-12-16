@@ -5,13 +5,15 @@ fetch('dictionary.json')
   .then(data => dictionary = data);
 
 document.getElementById('search').addEventListener('input', function() {
-  const query = this.value.toLowerCase();
-  const results = dictionary.filter(entry =>
-    entry.word.toLowerCase().includes(query)
-  );
+ const normalize = text =>
+  text
+    .toLowerCase()
+    .replace(/、|〜|（|）/g, '');
 
-  const resultDiv = document.getElementById('result');
-  resultDiv.innerHTML = '';
+const results = dictionary.filter(entry =>
+  normalize(entry.word).includes(query) ||
+  normalize(entry.meaning).includes(query)
+);
 
   if (results.length === 0) {
     resultDiv.innerHTML = '一致する単語が見つかりません。';
