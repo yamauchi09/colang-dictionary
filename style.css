@@ -1,13 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  background-color: #fdfdfd;
+  margin: 0;
+  font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", sans-serif;
+  background: #f4f6f8;
+  color: #222;
 }
-input {
-  width: 300px;
-  padding: 8px;
-  margin-bottom: 20px;
+
+header {
+  background: #1e2a38;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
 }
+
+.subtitle {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.search-area {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-area input,
+.search-area select {
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.search-area input {
+  flex: 1;
+}
+
+.result-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .entry {
-  margin-bottom: 1.5em;
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.entry h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.3rem;
+  color: #1e2a38;
+}
+
+.entry p {
+  margin: 0.3rem 0;
+}
+
+.entry em {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+hr {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: #666;
 }
