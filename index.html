@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>人工言語辞書</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>人工言語辞書</h1>
-  <input type="text" id="search" placeholder="単語を検索...">
-  <div id="result"></div>
-  <script src="script.js"></script>
-</body>
-</html>
+<input id="search" placeholder="単語・意味で検索">
+<select id="posFilter">
+  <option value="">すべての品詞</option>
+  <option value="名詞">名詞</option>
+  <option value="動詞">動詞</option>
+  <option value="助動詞">助動詞</option>
+  <option value="前置詞">前置詞</option>
+  <option value="形態素">形態素</option>
+</select>
+
+<div id="result"></div>
