@@ -1,11 +1,44 @@
-<input id="search" placeholder="単語・意味で検索">
-<select id="posFilter">
-  <option value="">すべての品詞</option>
-  <option value="名詞">名詞</option>
-  <option value="動詞">動詞</option>
-  <option value="助動詞">助動詞</option>
-  <option value="前置詞">前置詞</option>
-  <option value="形態素">形態素</option>
-</select>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>人工言語 双方向辞書</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<div id="result"></div>
+  <header>
+    <h1>人工言語 双方向辞書</h1>
+    <p class="subtitle">単語 ⇄ 意味 / 形態素対応</p>
+  </header>
+
+  <main>
+    <section class="search-area">
+      <input
+        id="search"
+        type="text"
+        placeholder="単語 または 意味を入力"
+      >
+
+      <select id="posFilter">
+        <option value="">すべての品詞</option>
+        <option value="名詞">名詞</option>
+        <option value="動詞">動詞</option>
+        <option value="助動詞">助動詞</option>
+        <option value="前置詞">前置詞</option>
+        <option value="形態素">形態素</option>
+      </select>
+    </section>
+
+    <section id="result" class="result-area">
+      <!-- 検索結果がここに表示される -->
+    </section>
+  </main>
+
+  <footer>
+    <p>Artificial Language Dictionary</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
