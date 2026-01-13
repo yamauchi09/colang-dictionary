@@ -6,7 +6,6 @@
   { "word": "(mV)d", "meaning": ["二人称複数"], "part_of_speech": "形態素", "example": "", "notes": "" },
   { "word": "(mV)b", "meaning": ["三人称複数"], "part_of_speech": "形態素", "example": "", "notes": "" },
   { "word": "(mV)n", "meaning": ["人称・単複を指定しない"], "part_of_speech": "形態素", "example": "", "notes": "" },
-
   { "word": "-a", "meaning": ["名詞化"], "part_of_speech": "形態素", "example": "", "notes": "接尾辞" },
   { "word": "-i", "meaning": ["形容詞化"], "part_of_speech": "形態素", "example": "", "notes": "接尾辞" },
   { "word": "-o", "meaning": ["動詞化"], "part_of_speech": "形態素", "example": "", "notes": "接尾辞" },
@@ -15,13 +14,11 @@
   { "word": "-k", "meaning": ["助動詞化"], "part_of_speech": "形態素", "example": "", "notes": "接尾辞" },
   { "word": "-os", "meaning": ["接続詞化"], "part_of_speech": "形態素", "example": "", "notes": "接尾辞" },
   { "word": "-es", "meaning": ["感動詞化"], "part_of_speech": "形態素", "example": "", "notes": "接尾辞" },
-
   { "word": "-ik", "meaning": ["ボイスの助動詞"], "part_of_speech": "形態素", "example": "", "notes": "" },
   { "word": "-ek", "meaning": ["アスペクトの助動詞"], "part_of_speech": "形態素", "example": "", "notes": "" },
   { "word": "-ak", "meaning": ["否定の助動詞"], "part_of_speech": "形態素", "example": "", "notes": "" },
   { "word": "-ok", "meaning": ["時制の助動詞"], "part_of_speech": "形態素", "example": "", "notes": "" },
   { "word": "-uk", "meaning": ["モダリティの助動詞"], "part_of_speech": "形態素", "example": "", "notes": "" },
-
   { "word": "-it-", "meaning": ["〜の", "属格化"], "part_of_speech": "形態素", "example": "", "notes": "接尾辞" },
   { "word": "-spa", "meaning": ["〜ところ", "〜場所"], "part_of_speech": "形態素", "example": "", "notes": "接尾辞" },
   { "word": "-ksa", "meaning": ["〜こと"], "part_of_speech": "形態素", "example": "", "notes": "接尾辞" },
@@ -29,12 +26,10 @@
   { "word": "-tpa", "meaning": ["〜とき", "〜ころ"], "part_of_speech": "形態素", "example": "", "notes": "接尾辞" },
   { "word": "-pta", "meaning": ["〜の素", "〜の源", "〜の要素", "〜の材料"], "part_of_speech": "形態素", "example": "", "notes": "接尾辞" },
   { "word": "-nna", "meaning": ["〜もの"], "part_of_speech": "形態素", "example": "", "notes": "接尾辞・存在naとの複合語" },
-
   { "word": "men-", "meaning": ["〜の中へ", "〜の中に", "〜の最中"], "part_of_speech": "形態素", "example": "", "notes": "接頭辞" },
   { "word": "ja-", "meaning": ["逆の", "真逆の"], "part_of_speech": "形態素", "example": "", "notes": "接頭辞" },
   { "word": "nya-", "meaning": ["〜でない", "補集合"], "part_of_speech": "形態素", "example": "", "notes": "接頭辞" },
   { "word": "shpi", "meaning": ["〜された"], "part_of_speech": "形態素", "example": "", "notes": "接頭辞" },
-
   { "word": "gat", "meaning": ["〜が", "〜は", "主格化", "主語"], "part_of_speech": "前置詞", "example": "", "notes": "" },
   { "word": "dat", "meaning": ["〜を", "対格化", "直接目的語"], "part_of_speech": "前置詞", "example": "", "notes": "" },
   { "word": "bat", "meaning": ["〜に", "与格化", "間接目的語"], "part_of_speech": "前置詞", "example": "", "notes": "" },
@@ -43,8 +38,6 @@
   { "word": "lit", "meaning": ["〜から", "〜より", "〜によって", "奪格化", "起点", "分離", "原因", "手段"], "part_of_speech": "前置詞", "example": "", "notes": "" },
   { "word": "lut", "meaning": ["〜へ", "〜に", "〜に向かって", "処格化", "方向", "目標"], "part_of_speech": "前置詞", "example": "", "notes": "" },
   { "word": "mut", "meaning": ["〜で", "処格化", "地点", "所在"], "part_of_speech": "前置詞", "example": "", "notes": "" }
-]
-[
   {
     "word": "kyuzik",
     "meaning": "使役",
@@ -129,8 +122,6 @@
     "partOfSpeech": "助動詞",
     "note": "過去から見た未来"
   }
-]
-[
   { "word": "bona", "meaning": "善", "partOfSpeech": "名詞", "note": "*" },
   { "word": "cheyaba", "meaning": "祝い、祝祭、記念式典", "partOfSpeech": "名詞", "note": "" },
   { "word": "dika", "meaning": "スピーチ、演説、発信、語り", "partOfSpeech": "名詞", "note": "" },
@@ -166,7 +157,6 @@
   { "word": "tepa", "meaning": "時間、時", "partOfSpeech": "名詞", "note": "時刻ではなく概念的時間" },
   { "word": "yeda", "meaning": "食、食事", "partOfSpeech": "名詞", "note": "" },
   { "word": "yedonna", "meaning": "食べ物", "partOfSpeech": "名詞", "note": "" },
-
   { "word": "sifa", "meaning": "0、空白、空欄", "partOfSpeech": "名詞", "note": "数詞" },
   { "word": "wa", "meaning": "1、原初", "partOfSpeech": "名詞", "note": "数詞" },
   { "word": "zyuwa", "meaning": "2、対", "partOfSpeech": "名詞", "note": "数詞" },
@@ -178,7 +168,6 @@
   { "word": "hota", "meaning": "8", "partOfSpeech": "名詞", "note": "数詞" },
   { "word": "nowa", "meaning": "9", "partOfSpeech": "名詞", "note": "数詞" },
   { "word": "deka", "meaning": "10", "partOfSpeech": "名詞", "note": "数詞" },
-
   { "word": "winna", "meaning": "1番目", "partOfSpeech": "名詞", "note": "序数詞" },
   { "word": "zyuwinna", "meaning": "2番目", "partOfSpeech": "名詞", "note": "序数詞" },
   { "word": "torinna", "meaning": "3番目", "partOfSpeech": "名詞", "note": "序数詞" },
@@ -189,8 +178,6 @@
   { "word": "hotanna", "meaning": "8番目", "partOfSpeech": "名詞", "note": "序数詞" },
   { "word": "nowanna", "meaning": "9番目", "partOfSpeech": "名詞", "note": "序数詞" },
   { "word": "dekanna", "meaning": "10番目", "partOfSpeech": "名詞", "note": "序数詞" }
-]
-[
   {
     "word": "no",
     "meaning": "存在する（動詞原型）",
@@ -347,8 +334,6 @@
     "partOfSpeech": "動詞",
     "note": "*"
   }
-]
-[
   {
     "word": "pi",
     "meaning": "定冠詞（the に相当）",
